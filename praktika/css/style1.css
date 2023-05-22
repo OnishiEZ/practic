@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-bottom: 1px solid black;
+}
+
+header .seredina {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header .seredina a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+header .seredina a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+
+header .ic i  {
+    font-size: 22px;
+    color: black;
+}
+
+header .ic i:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+header div a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+
+
+main .levo {
+    display: grid;
+    row-gap: 3vh;
+}
+
+
+main .levo .verx {
+    display: grid;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+main .levo div button{
+    width: 155px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+}
+main .levo div button.active {
+    color: #fff;
+    background-color: orange;
+}
+
+main .levo .niz {
+    display: grid;
+}
+
